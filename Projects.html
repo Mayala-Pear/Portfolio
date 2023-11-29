@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<img src="Logo.png" alt="logo" align="left" width="100" height="100">
+<link rel="stylesheet" type="text/css" href="Projects.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio">
+<meta name="keywords" content="Web Design">
+<meta name="author" content="Meaganrose Pearsall">
+<title>My Web design Portfolio</title>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="Projects.html">Home</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+			<li><a href="Resume.html">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="about">
+      <img src="Home.png" alt="headshot" width="100%" height="100%">
+</section>
+
+<section>
+<li><a href="gallery.html" class="pill-btn">DISCOVER</a></li>
+</section>
+
+<footer>
+    <p>&copy; 2023 Meaganrose Pearsall</p>
+</footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+	
+<i class="scroll-up" id="scroll-up"
+      ><img
+        src="Scrollup.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+<script>
+const scrollUp = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+	color: #244433;
+}
+
+body {
+    font-family: Bradley Hand, cursive;
+    line-height: 1.6;
+	background-color: #E7DFD8;
+}
+header {
+    background-color: #E7DFD8;
+    color: #244433;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+	text-align:right;
+}
+
+nav ul li {
+    display: inline;
+	text-align: right;
+	padding:20px;
+}
+
+nav ul li a {
+    color: #244433;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #244433;
+    color: #FDFCF8;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1acaa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #E7DFD8;
+    color: #244433;
+    bottom: 0;
+    width: 100%;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
